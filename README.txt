@@ -19,6 +19,8 @@ All variables should have meanings that are clear from chapter 8 of my thesis.
 Installation:
 The installation process, utilizing a virtual environment, is given by:
 
+git clone https://github.com/DaleHughes766/Dipole_instability_model.git
+cd Dipole_instability_model
 python3 -m venv .dipole_instability_model          
 source .dipole_instability_model/bin/activate
 pip install -r requirements.txt
