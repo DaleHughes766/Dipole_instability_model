@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+.dipole_instability_model/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Generated simulation data
+results/*
+!results/.gitkeep
+
+# Large numerical data
+*.npy
+*.npz
+*.zarr
+*.h5
+*.hdf5
+
+# Generated figures
+*.pgf
+*.pdf
